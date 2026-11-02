@@ -1,0 +1,471 @@
+{
+  "_lisezmoi": "Fichier UNIQUE de personnalisation. Les jetons {nom}, {metier}, {metierMin}, {ville}, {telephone}, {delai}, {annees}, {chantiers} sont remplacés automatiquement partout.",
+  "entreprise": {
+    "nom": "Atelier Fabre",
+    "initiales": "AF",
+    "metier": "Peintre",
+    "metierMin": "peintre en bâtiment",
+    "schemaType": "HousePainter",
+    "slogan": "La couleur, mais sans les traces.",
+    "gerant": "Lucie Fabre",
+    "formeJuridique": "EI",
+    "adresse": "12 quai de Bosc",
+    "codePostal": "34200",
+    "ville": "Sète",
+    "region": "Occitanie",
+    "departement": "Hérault (34)",
+    "pays": "FR",
+    "latitude": 43.4028,
+    "longitude": 3.6967,
+    "telephone": "+33467000002",
+    "telephoneAffiche": "04 67 00 00 02",
+    "email": "contact@atelier-fabre.fr",
+    "anneeCreation": 2014,
+    "siret": "345 678 912 00024",
+    "tva": "FR 45 345678912",
+    "codeApe": "4334Z — Travaux de peinture et vitrerie",
+    "prix": "€€"
+  },
+  "theme": {
+    "graphite": "#18191B",
+    "graphite2": "#232427",
+    "papier": "#F1EEE7",
+    "papier2": "#E4E0D6",
+    "accent": "#E8603C",
+    "surAccent": "#18191B"
+  },
+  "seo": {
+    "titre": "{metier} à {ville} — {nom} | Devis gratuit",
+    "description": "{nom}, {metierMin} à {ville} et autour du bassin de Thau. Peinture intérieure, façades, boiseries, enduits décoratifs. Chantier propre, devis gratuit au {telephone}.",
+    "url": "https://peintre-demo.vercel.app",
+    "image": "/photos/og.jpg",
+    "langue": "fr",
+    "locale": "fr_FR"
+  },
+  "preuves": {
+    "noteGoogle": 4.9,
+    "nombreAvis": 88,
+    "lienAvisGoogle": "https://www.google.com/maps",
+    "chantiers": 640,
+    "delai": "48 h",
+    "delaiCourt": "48 h",
+    "garantie": "Garantie pièces & main-d'œuvre 2 ans"
+  },
+  "horaires": [
+    {
+      "jours": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "libelle": "Lun – Ven",
+      "ouverture": "07:30",
+      "fermeture": "19:00"
+    },
+    {
+      "jours": [
+        "Saturday"
+      ],
+      "libelle": "Samedi",
+      "ouverture": "08:00",
+      "fermeture": "12:00"
+    }
+  ],
+  "horairesUrgence": "Urgences 7 j / 7",
+  "hero": {
+    "modele3d": "rouleau",
+    "poster": "/photos/hero-rouleau.webp",
+    "refPlan": "PLAN N° AF-01",
+    "echelle": "ÉCH. 1:1",
+    "indice": "IND. C",
+    "cote": "Devis sous 48 h",
+    "titreMetier": "{metier} à {ville}",
+    "accroche": "Murs, plafonds, façades, boiseries. Préparation soignée, finitions nettes, chantier protégé.",
+    "ctaAppeler": "Appeler",
+    "ctaDevis": "Devis gratuit, sans engagement",
+    "indicationScroll": "Faites défiler",
+    "etatEclate": "Vue éclatée",
+    "etatAssemble": "Vue assemblée",
+    "annotations": {
+      "manchon": "Manchon microfibre 12 mm",
+      "embouts": "Embouts de cage",
+      "armature": "Armature acier",
+      "virole": "Virole filetée",
+      "manche": "Manche bi-matière"
+    },
+    "statNote": "note Google",
+    "statAvis": "{nombreAvis} avis",
+    "statChantiers": "chantiers",
+    "statDelai": "devis"
+  },
+  "bandeau": [
+    "Devis gratuit, sans engagement",
+    "Devis sous 48 h",
+    "Assurance décennale",
+    "Artisan local — {ville}",
+    "Peintures labellisées A+"
+  ],
+  "navigation": {
+    "services": "Services",
+    "realisations": "Réalisations",
+    "zone": "Zone",
+    "avis": "Avis",
+    "devis": "Devis",
+    "libelle": "Sections du site"
+  },
+  "services": {
+    "numero": "01",
+    "titre": "Ce que je fais",
+    "sousTitre": "Nomenclature des interventions. Touchez une ligne pour le détail.",
+    "feuille": "FEUILLE 1/5",
+    "colonnePrix": "Tarif indicatif",
+    "colonneDelai": "Délai",
+    "libelleInclus": "Compris",
+    "ctaService": "Devis pour ce service",
+    "liste": [
+      {
+        "id": "interieur",
+        "titre": "Peinture intérieure",
+        "resume": "Murs, plafonds, pièces à vivre.",
+        "detail": "Lessivage, rebouchage, ponçage, sous-couche puis deux couches de finition. Mobilier protégé, sols bâchés.",
+        "inclus": [
+          "Préparation complète",
+          "Peintures A+",
+          "Protection des sols"
+        ],
+        "prix": "dès 24 € / m²",
+        "delai": "2 à 5 j"
+      },
+      {
+        "id": "facade",
+        "titre": "Ravalement de façade",
+        "resume": "Nettoyage, fissures, peinture minérale.",
+        "detail": "Diagnostic des fissures, traitement anti-mousse, imperméabilisation et peinture adaptée au climat marin.",
+        "inclus": [
+          "Diagnostic façade",
+          "Échafaudage",
+          "Garantie décennale"
+        ],
+        "prix": "sur devis",
+        "delai": "selon surface"
+      },
+      {
+        "id": "boiseries",
+        "titre": "Boiseries & menuiseries",
+        "resume": "Portes, volets, plinthes, escaliers.",
+        "detail": "Décapage si nécessaire, ponçage, laque satinée ou mate, quincaillerie déposée et reposée.",
+        "inclus": [
+          "Ponçage",
+          "Laque haute tenue",
+          "Quincaillerie reposée"
+        ],
+        "prix": "dès 180 € / porte",
+        "delai": "1 à 2 j"
+      },
+      {
+        "id": "deco",
+        "titre": "Enduits décoratifs",
+        "resume": "Béton ciré, tadelakt, chaux.",
+        "detail": "Finitions minérales pour pièces d'eau ou murs d'accent. Échantillon réalisé chez vous avant validation.",
+        "inclus": [
+          "Échantillon offert",
+          "Finition protégée",
+          "Conseils couleur"
+        ],
+        "prix": "sur devis",
+        "delai": "2 à 4 j"
+      },
+      {
+        "id": "plafonds",
+        "titre": "Plafonds & dégâts des eaux",
+        "resume": "Taches, fissures, cloques.",
+        "detail": "Traitement des taches (anti-tache isolante), reprise des fissures avec bande, remise en peinture. Dossier assurance facilité.",
+        "inclus": [
+          "Anti-tache",
+          "Reprise des fissures",
+          "Dossier assurance"
+        ],
+        "prix": "dès 290 €",
+        "delai": "1 j"
+      }
+    ]
+  },
+  "realisations": {
+    "numero": "02",
+    "titre": "Avant / après",
+    "sousTitre": "Glissez le curseur. Photos prises sur chantier, sans retouche.",
+    "feuille": "FEUILLE 2/5",
+    "libelleAvant": "Avant",
+    "libelleApres": "Après",
+    "libelleGlisser": "Glisser",
+    "libelleLieu": "Lieu",
+    "libelleDuree": "Durée",
+    "libelleType": "Travaux",
+    "liste": [
+      {
+        "ref": "R-01",
+        "titre": "Séjour repeint en deux tons",
+        "lieu": "Sète — Quartier Haut",
+        "duree": "3 jours",
+        "type": "Peinture intérieure",
+        "avant": {
+          "src": "/photos/peint-salon-avant.webp",
+          "alt": "Mur de séjour avec papier peint jauni, taches et fissures, avant travaux à Sète",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/peint-salon-apres.webp",
+          "alt": "Mur de séjour repeint en deux tons vert et blanc cassé, après travaux à Sète",
+          "unsplash": ""
+        }
+      },
+      {
+        "ref": "R-02",
+        "titre": "Porte d'entrée laquée bleu nuit",
+        "lieu": "Balaruc-les-Bains",
+        "duree": "1 jour",
+        "type": "Boiseries",
+        "avant": {
+          "src": "/photos/peint-porte-avant.webp",
+          "alt": "Porte intérieure écaillée et jaunie, avant travaux à Balaruc-les-Bains",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/peint-porte-apres.webp",
+          "alt": "Porte laquée bleu nuit avec encadrement blanc, après travaux à Balaruc-les-Bains",
+          "unsplash": ""
+        }
+      }
+    ]
+  },
+  "zone": {
+    "numero": "03",
+    "titre": "Zone d'intervention",
+    "sousTitre": "Basé à {ville}, j'interviens tout autour du bassin de Thau.",
+    "feuille": "FEUILLE 3/5",
+    "fondDeCarte": "thau",
+    "libelleBase": "Atelier",
+    "libelleMer": "Mer Méditerranée",
+    "libelleEtang": "Étang de Thau",
+    "libelleDistance": "km",
+    "libelleTrajet": "min",
+    "vitesseMoyenneKmh": 38,
+    "_etiquette": "Position du nom de ville sur la carte : droite | gauche | haut | bas",
+    "noteHorsZone": "Hors zone ? Appelez quand même, je vous oriente vers un confrère de confiance.",
+    "villes": [
+      {
+        "nom": "Sète",
+        "latitude": 43.4028,
+        "longitude": 3.6967,
+        "base": true,
+        "etiquette": "bas"
+      },
+      {
+        "nom": "Frontignan",
+        "latitude": 43.4483,
+        "longitude": 3.7553,
+        "etiquette": "droite"
+      },
+      {
+        "nom": "Balaruc-les-Bains",
+        "latitude": 43.4414,
+        "longitude": 3.6778,
+        "etiquette": "haut"
+      },
+      {
+        "nom": "Mèze",
+        "latitude": 43.4253,
+        "longitude": 3.6053,
+        "etiquette": "gauche"
+      },
+      {
+        "nom": "Marseillan",
+        "latitude": 43.3564,
+        "longitude": 3.5319,
+        "etiquette": "bas"
+      }
+    ]
+  },
+  "avis": {
+    "numero": "04",
+    "titre": "Ils m'ont appelé",
+    "sousTitre": "Avis publiés sur Google, non filtrés.",
+    "feuille": "FEUILLE 4/5",
+    "libelleNote": "Note moyenne Google",
+    "libelleSur": "/ 5",
+    "libelleAvis": "avis vérifiés",
+    "lienGoogle": "Lire tous les avis sur Google",
+    "compteurs": [
+      {
+        "valeur": "{chantiers}",
+        "suffixe": "",
+        "libelle": "chantiers réalisés"
+      },
+      {
+        "valeur": "{annees}",
+        "suffixe": "ans",
+        "libelle": "d'expérience à {ville}"
+      },
+      {
+        "valeur": "48",
+        "suffixe": "h",
+        "libelle": "pour recevoir votre devis"
+      }
+    ],
+    "tampons": [
+      {
+        "titre": "Assurance décennale",
+        "detail": "Police n° {police}"
+      },
+      {
+        "titre": "Artisan local",
+        "detail": "Atelier à {ville} depuis {anneeCreation}"
+      },
+      {
+        "titre": "Devis gratuit",
+        "detail": "Sans engagement, sous 48 h"
+      }
+    ],
+    "liste": [
+      {
+        "auteur": "Élodie R.",
+        "ville": "Sète",
+        "date": "2026-08",
+        "note": 5,
+        "texte": "Lucie a repeint tout notre séjour en 3 jours. Conseils couleur au top, finitions impeccables et pas une goutte au sol."
+      },
+      {
+        "auteur": "Marc T.",
+        "ville": "Balaruc-les-Bains",
+        "date": "2026-06",
+        "note": 5,
+        "texte": "Toutes les portes de la maison laquées. Le rendu est magnifique, travail très soigné."
+      },
+      {
+        "auteur": "Sophie L.",
+        "ville": "Mèze",
+        "date": "2026-03",
+        "note": 5,
+        "texte": "Plafond taché après un dégât des eaux : propre, rapide, et elle m'a aidée pour le dossier d'assurance."
+      },
+      {
+        "auteur": "Jean-Luc M.",
+        "ville": "Frontignan",
+        "date": "2026-01",
+        "note": 4,
+        "texte": "Façade refaite, bon résultat. Délai un peu décalé à cause de la météo, mais on a été prévenus."
+      }
+    ]
+  },
+  "devis": {
+    "numero": "05",
+    "titre": "Demande de devis",
+    "sousTitre": "3 questions, 40 secondes. Rappel sous 2 h ouvrées.",
+    "feuille": "FEUILLE 5/5",
+    "envoi": "mailto",
+    "formspreeId": "",
+    "emailDestination": "contact@atelier-fabre.fr",
+    "objetEmail": "Demande de devis — {travaux} — {commune}",
+    "etapes": [
+      "Travaux",
+      "Urgence",
+      "Coordonnées"
+    ],
+    "questionTravaux": "Quel type de travaux ?",
+    "autreTravaux": "Autre / je ne sais pas",
+    "questionUrgence": "C'est pour quand ?",
+    "urgences": [
+      {
+        "id": "urgent",
+        "label": "Rapidement",
+        "detail": "Vente, location, sinistre"
+      },
+      {
+        "id": "semaine",
+        "label": "Ce mois-ci",
+        "detail": "Dans les 4 semaines"
+      },
+      {
+        "id": "mois",
+        "label": "Cette saison",
+        "detail": "Projet à planifier"
+      },
+      {
+        "id": "projet",
+        "label": "Je me renseigne",
+        "detail": "Pas de date pour l'instant"
+      }
+    ],
+    "questionCoordonnees": "Où vous rappeler ?",
+    "champNom": "Nom",
+    "champTelephone": "Téléphone",
+    "champCommune": "Commune",
+    "champMessage": "Précisions (facultatif)",
+    "placeholderMessage": "Ex. : séjour 30 m², plafond taché, 2 portes…",
+    "consentement": "J'accepte d'être recontacté au sujet de ma demande. Aucune revente de données.",
+    "erreurNom": "Indiquez votre nom",
+    "erreurTelephone": "Numéro à 10 chiffres",
+    "erreurConsentement": "Cochez la case pour continuer",
+    "boutonSuivant": "Suivant",
+    "boutonRetour": "Retour",
+    "boutonEnvoyer": "Envoyer ma demande",
+    "envoiEnCours": "Envoi…",
+    "reassurance": "Devis gratuit, sans engagement · Rappel sous 2 h ouvrées",
+    "succesTitre": "Demande transmise.",
+    "succesTexte": "Je vous rappelle au {numeroClient} sous 2 h ouvrées. Pour une urgence, appelez directement.",
+    "erreurEnvoi": "L'envoi a échoué. Appelez-moi directement au {telephone}.",
+    "etapeLibelle": "Étape"
+  },
+  "barreMobile": {
+    "appeler": "Appeler",
+    "devis": "Devis gratuit"
+  },
+  "assurance": {
+    "type": "Assurance décennale",
+    "assureur": "Mutuelle des Artisans du Midi",
+    "police": "DEC-2024-009120",
+    "couverture": "France métropolitaine"
+  },
+  "pied": {
+    "titreMentions": "Mentions légales",
+    "libelleRaisonSociale": "Raison sociale",
+    "libelleSiret": "SIRET",
+    "libelleTva": "TVA intracom.",
+    "libelleApe": "Code APE",
+    "libelleAssurance": "Assurance décennale",
+    "libelleAdresse": "Adresse",
+    "libelleHoraires": "Horaires",
+    "libelleContact": "Contact",
+    "copyright": "© {annee} {nom}. Tous droits réservés.",
+    "mentionDemo": "Site de démonstration réalisé par",
+    "agence": "MJAGENCY",
+    "agenceUrl": "https://mjagency.eu",
+    "agenceLibelleUrl": "mjagency.eu",
+    "libelleEmail": "E-mail",
+    "libellePolice": "n°"
+  },
+  "demo": {
+    "afficherSelecteur": true,
+    "libelle": "Démo — voir ce site pour un autre métier :",
+    "presets": [
+      {
+        "id": "electricien",
+        "label": "Électricien"
+      },
+      {
+        "id": "plombier",
+        "label": "Plombier"
+      },
+      {
+        "id": "peintre",
+        "label": "Peintre"
+      },
+      {
+        "id": "paysagiste",
+        "label": "Paysagiste"
+      }
+    ]
+  }
+}

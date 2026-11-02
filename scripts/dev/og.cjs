@@ -1,0 +1,17 @@
+// Génère public/photos/og.jpg (aperçu réseaux sociaux) depuis le hero desktop. Dev uniquement.
+const { chromium } = require('playwright')
+const sharp = require('sharp')
+;(async () => {
+  const b = await chromium.launch({ args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] })
+  const p = await b.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 })
+  await p.goto((process.env.DEV_URL || 'http://localhost:5173') + '/' + (process.argv[2] || ''), { waitUntil: 'networkidle' })
+  await p.mouse.move(10, 10)
+  await p.evaluate(() => window.scrollTo(0, 260))
+  await p.waitForTimeout(3500)
+  const png = await p.screenshot()
+  await sharp(png).jpeg({ quality: 82, mozjpeg: true }).toFile('public/photos/og.jpg')
+  await p.setViewportSize({ width: 1440, height: 900 })
+  await p.evaluate(() => window.scrollTo(0, 0)); await p.waitForTimeout(1500)
+  await p.screenshot({ path: process.env.SHOT || '/tmp/desk.png' })
+  await b.close()
+})()

@@ -1,0 +1,471 @@
+{
+  "_lisezmoi": "Fichier UNIQUE de personnalisation. Les jetons {nom}, {metier}, {metierMin}, {ville}, {telephone}, {delai}, {annees}, {chantiers} sont remplacés automatiquement partout.",
+  "entreprise": {
+    "nom": "Thau Jardins",
+    "initiales": "TJ",
+    "metier": "Paysagiste",
+    "metierMin": "paysagiste",
+    "schemaType": "HomeAndConstructionBusiness",
+    "slogan": "Des jardins qui aiment le vent.",
+    "gerant": "Antoine Ribes",
+    "formeJuridique": "EI",
+    "adresse": "12 quai de Bosc",
+    "codePostal": "34200",
+    "ville": "Sète",
+    "region": "Occitanie",
+    "departement": "Hérault (34)",
+    "pays": "FR",
+    "latitude": 43.4028,
+    "longitude": 3.6967,
+    "telephone": "+33467000003",
+    "telephoneAffiche": "04 67 00 00 03",
+    "email": "contact@thau-jardins.fr",
+    "anneeCreation": 2012,
+    "siret": "456 789 123 00030",
+    "tva": "FR 56 456789123",
+    "codeApe": "8130Z — Services d'aménagement paysager",
+    "prix": "€€"
+  },
+  "theme": {
+    "graphite": "#18191B",
+    "graphite2": "#232427",
+    "papier": "#F1EEE7",
+    "papier2": "#E4E0D6",
+    "accent": "#8BC34A",
+    "surAccent": "#18191B"
+  },
+  "seo": {
+    "titre": "{metier} à {ville} — {nom} | Devis gratuit",
+    "description": "{nom}, {metierMin} à {ville} et autour du bassin de Thau. Création de jardins méditerranéens, terrasses, entretien, arrosage automatique. Devis gratuit au {telephone}.",
+    "url": "https://paysagiste-demo.vercel.app",
+    "image": "/photos/og.jpg",
+    "langue": "fr",
+    "locale": "fr_FR"
+  },
+  "preuves": {
+    "noteGoogle": 5.0,
+    "nombreAvis": 64,
+    "lienAvisGoogle": "https://www.google.com/maps",
+    "chantiers": 410,
+    "delai": "72 h",
+    "delaiCourt": "72 h",
+    "garantie": "Garantie pièces & main-d'œuvre 2 ans"
+  },
+  "horaires": [
+    {
+      "jours": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "libelle": "Lun – Ven",
+      "ouverture": "07:30",
+      "fermeture": "19:00"
+    },
+    {
+      "jours": [
+        "Saturday"
+      ],
+      "libelle": "Samedi",
+      "ouverture": "08:00",
+      "fermeture": "12:00"
+    }
+  ],
+  "horairesUrgence": "Urgences 7 j / 7",
+  "hero": {
+    "modele3d": "couches",
+    "poster": "/photos/hero-couches.webp",
+    "refPlan": "PLAN N° TJ-01",
+    "echelle": "ÉCH. 1:1",
+    "indice": "IND. C",
+    "cote": "Visite & devis gratuits",
+    "titreMetier": "{metier} à {ville}",
+    "accroche": "Jardins secs méditerranéens, terrasses, allées, arrosage. Conçus pour le vent et le sel du bassin de Thau.",
+    "ctaAppeler": "Appeler",
+    "ctaDevis": "Devis gratuit, sans engagement",
+    "indicationScroll": "Faites défiler",
+    "etatEclate": "Vue éclatée",
+    "etatAssemble": "Vue assemblée",
+    "annotations": {
+      "paves": "Pavés calcaire 6 cm",
+      "sable": "Lit de pose 3 cm",
+      "geotextile": "Géotextile 200 g/m²",
+      "grave": "Grave 0/31,5 — 15 cm",
+      "sol": "Fond de forme compacté"
+    },
+    "statNote": "note Google",
+    "statAvis": "{nombreAvis} avis",
+    "statChantiers": "chantiers",
+    "statDelai": "visite"
+  },
+  "bandeau": [
+    "Visite & devis gratuits",
+    "Plantes adaptées au climat marin",
+    "Assurance décennale",
+    "Artisan local — {ville}",
+    "Crédit d'impôt 50 % sur l'entretien"
+  ],
+  "navigation": {
+    "services": "Services",
+    "realisations": "Réalisations",
+    "zone": "Zone",
+    "avis": "Avis",
+    "devis": "Devis",
+    "libelle": "Sections du site"
+  },
+  "services": {
+    "numero": "01",
+    "titre": "Ce que je fais",
+    "sousTitre": "Nomenclature des interventions. Touchez une ligne pour le détail.",
+    "feuille": "FEUILLE 1/5",
+    "colonnePrix": "Tarif indicatif",
+    "colonneDelai": "Délai",
+    "libelleInclus": "Compris",
+    "ctaService": "Devis pour ce service",
+    "liste": [
+      {
+        "id": "creation",
+        "titre": "Création de jardin",
+        "resume": "Jardin sec méditerranéen, massifs, haies.",
+        "detail": "Plan d'aménagement, choix de végétaux résistants à la sécheresse et aux embruns, paillage minéral.",
+        "inclus": [
+          "Plan d'aménagement",
+          "Végétaux garantis 1 an",
+          "Paillage"
+        ],
+        "prix": "sur devis",
+        "delai": "selon surface"
+      },
+      {
+        "id": "terrasse",
+        "titre": "Terrasses & allées",
+        "resume": "Bois, pierre, pavés, gravier stabilisé.",
+        "detail": "Décaissement, fondation en grave compactée, géotextile, pose soignée avec pentes d'écoulement.",
+        "inclus": [
+          "Étude des niveaux",
+          "Fondation drainante",
+          "Garantie décennale"
+        ],
+        "prix": "dès 85 € / m²",
+        "delai": "3 à 8 j"
+      },
+      {
+        "id": "gazon",
+        "titre": "Gazon & engazonnement",
+        "resume": "Semis, gazon en plaques, rénovation.",
+        "detail": "Préparation du sol, amendement, semis ou plaques, premier arrosage et conseils de tonte.",
+        "inclus": [
+          "Préparation du sol",
+          "Amendement",
+          "Suivi à 1 mois"
+        ],
+        "prix": "dès 12 € / m²",
+        "delai": "1 à 2 j"
+      },
+      {
+        "id": "arrosage",
+        "titre": "Arrosage automatique",
+        "resume": "Goutte-à-goutte, programmateur connecté.",
+        "detail": "Réseau enterré, zones séparées, programmateur Wi-Fi avec sonde de pluie. Jusqu'à 50 % d'eau économisée.",
+        "inclus": [
+          "Étude par zones",
+          "Programmateur connecté",
+          "Mise en service"
+        ],
+        "prix": "dès 690 €",
+        "delai": "1 à 2 j"
+      },
+      {
+        "id": "entretien",
+        "titre": "Entretien de jardin",
+        "resume": "Taille, tonte, désherbage, évacuation.",
+        "detail": "Contrat à l'année ou passage ponctuel. Éligible au crédit d'impôt service à la personne.",
+        "inclus": [
+          "Évacuation des déchets",
+          "Crédit d'impôt 50 %",
+          "Contrat sans engagement"
+        ],
+        "prix": "dès 35 € / h",
+        "delai": "selon contrat"
+      }
+    ]
+  },
+  "realisations": {
+    "numero": "02",
+    "titre": "Avant / après",
+    "sousTitre": "Glissez le curseur. Photos prises sur chantier, sans retouche.",
+    "feuille": "FEUILLE 2/5",
+    "libelleAvant": "Avant",
+    "libelleApres": "Après",
+    "libelleGlisser": "Glisser",
+    "libelleLieu": "Lieu",
+    "libelleDuree": "Durée",
+    "libelleType": "Travaux",
+    "liste": [
+      {
+        "ref": "R-01",
+        "titre": "Friche transformée en jardin entretenu",
+        "lieu": "Mèze",
+        "duree": "4 jours",
+        "type": "Création de jardin",
+        "avant": {
+          "src": "/photos/pay-jardin-avant.webp",
+          "alt": "Jardin en friche avec herbes sèches et haie envahissante, avant travaux à Mèze",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/pay-jardin-apres.webp",
+          "alt": "Jardin avec pelouse dense, haie taillée et pas japonais, après travaux à Mèze",
+          "unsplash": ""
+        }
+      },
+      {
+        "ref": "R-02",
+        "titre": "Terrasse bois sur terrain vague",
+        "lieu": "Marseillan",
+        "duree": "6 jours",
+        "type": "Terrasse",
+        "avant": {
+          "src": "/photos/pay-terrasse-avant.webp",
+          "alt": "Terrain vague avec gravats devant une maison, avant travaux à Marseillan",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/pay-terrasse-apres.webp",
+          "alt": "Terrasse en bois avec jardinières et salon de jardin, après travaux à Marseillan",
+          "unsplash": ""
+        }
+      }
+    ]
+  },
+  "zone": {
+    "numero": "03",
+    "titre": "Zone d'intervention",
+    "sousTitre": "Basé à {ville}, j'interviens tout autour du bassin de Thau.",
+    "feuille": "FEUILLE 3/5",
+    "fondDeCarte": "thau",
+    "libelleBase": "Atelier",
+    "libelleMer": "Mer Méditerranée",
+    "libelleEtang": "Étang de Thau",
+    "libelleDistance": "km",
+    "libelleTrajet": "min",
+    "vitesseMoyenneKmh": 38,
+    "_etiquette": "Position du nom de ville sur la carte : droite | gauche | haut | bas",
+    "noteHorsZone": "Hors zone ? Appelez quand même, je vous oriente vers un confrère de confiance.",
+    "villes": [
+      {
+        "nom": "Sète",
+        "latitude": 43.4028,
+        "longitude": 3.6967,
+        "base": true,
+        "etiquette": "bas"
+      },
+      {
+        "nom": "Frontignan",
+        "latitude": 43.4483,
+        "longitude": 3.7553,
+        "etiquette": "droite"
+      },
+      {
+        "nom": "Balaruc-les-Bains",
+        "latitude": 43.4414,
+        "longitude": 3.6778,
+        "etiquette": "haut"
+      },
+      {
+        "nom": "Mèze",
+        "latitude": 43.4253,
+        "longitude": 3.6053,
+        "etiquette": "gauche"
+      },
+      {
+        "nom": "Marseillan",
+        "latitude": 43.3564,
+        "longitude": 3.5319,
+        "etiquette": "bas"
+      }
+    ]
+  },
+  "avis": {
+    "numero": "04",
+    "titre": "Ils m'ont appelé",
+    "sousTitre": "Avis publiés sur Google, non filtrés.",
+    "feuille": "FEUILLE 4/5",
+    "libelleNote": "Note moyenne Google",
+    "libelleSur": "/ 5",
+    "libelleAvis": "avis vérifiés",
+    "lienGoogle": "Lire tous les avis sur Google",
+    "compteurs": [
+      {
+        "valeur": "{chantiers}",
+        "suffixe": "",
+        "libelle": "chantiers réalisés"
+      },
+      {
+        "valeur": "{annees}",
+        "suffixe": "ans",
+        "libelle": "d'expérience à {ville}"
+      },
+      {
+        "valeur": "50",
+        "suffixe": "%",
+        "libelle": "de crédit d'impôt sur l'entretien"
+      }
+    ],
+    "tampons": [
+      {
+        "titre": "Assurance décennale",
+        "detail": "Police n° {police}"
+      },
+      {
+        "titre": "Artisan local",
+        "detail": "Atelier à {ville} depuis {anneeCreation}"
+      },
+      {
+        "titre": "Devis gratuit",
+        "detail": "Sans engagement, sous 48 h"
+      }
+    ],
+    "liste": [
+      {
+        "auteur": "Isabelle C.",
+        "ville": "Mèze",
+        "date": "2026-09",
+        "note": 5,
+        "texte": "Antoine a transformé notre friche en vrai jardin. Il a choisi des plantes qui tiennent le vent, et l'arrosage automatique change la vie."
+      },
+      {
+        "auteur": "Romain D.",
+        "ville": "Marseillan",
+        "date": "2026-07",
+        "note": 5,
+        "texte": "Terrasse bois livrée dans les délais, finitions parfaites. Chantier nettoyé chaque soir."
+      },
+      {
+        "auteur": "Martine F.",
+        "ville": "Sète",
+        "date": "2026-04",
+        "note": 5,
+        "texte": "Contrat d'entretien depuis 2 ans, toujours ponctuels et de bon conseil. Le crédit d'impôt est bien pratique."
+      },
+      {
+        "auteur": "Olivier S.",
+        "ville": "Balaruc-les-Bains",
+        "date": "2026-02",
+        "note": 4,
+        "texte": "Belle allée en pavés, travail propre. Un petit report à cause de la pluie."
+      }
+    ]
+  },
+  "devis": {
+    "numero": "05",
+    "titre": "Demande de devis",
+    "sousTitre": "3 questions, 40 secondes. Rappel sous 2 h ouvrées.",
+    "feuille": "FEUILLE 5/5",
+    "envoi": "mailto",
+    "formspreeId": "",
+    "emailDestination": "contact@thau-jardins.fr",
+    "objetEmail": "Demande de devis — {travaux} — {commune}",
+    "etapes": [
+      "Travaux",
+      "Urgence",
+      "Coordonnées"
+    ],
+    "questionTravaux": "Quel type de travaux ?",
+    "autreTravaux": "Autre / je ne sais pas",
+    "questionUrgence": "C'est pour quand ?",
+    "urgences": [
+      {
+        "id": "urgent",
+        "label": "Au plus vite",
+        "detail": "Avant une vente, un événement"
+      },
+      {
+        "id": "semaine",
+        "label": "Ce mois-ci",
+        "detail": "Dans les 4 semaines"
+      },
+      {
+        "id": "mois",
+        "label": "Cette saison",
+        "detail": "Projet à planifier"
+      },
+      {
+        "id": "projet",
+        "label": "Je me renseigne",
+        "detail": "Pas de date pour l'instant"
+      }
+    ],
+    "questionCoordonnees": "Où vous rappeler ?",
+    "champNom": "Nom",
+    "champTelephone": "Téléphone",
+    "champCommune": "Commune",
+    "champMessage": "Précisions (facultatif)",
+    "placeholderMessage": "Ex. : terrain 300 m², envie d'une terrasse et d'un jardin sec…",
+    "consentement": "J'accepte d'être recontacté au sujet de ma demande. Aucune revente de données.",
+    "erreurNom": "Indiquez votre nom",
+    "erreurTelephone": "Numéro à 10 chiffres",
+    "erreurConsentement": "Cochez la case pour continuer",
+    "boutonSuivant": "Suivant",
+    "boutonRetour": "Retour",
+    "boutonEnvoyer": "Envoyer ma demande",
+    "envoiEnCours": "Envoi…",
+    "reassurance": "Devis gratuit, sans engagement · Rappel sous 2 h ouvrées",
+    "succesTitre": "Demande transmise.",
+    "succesTexte": "Je vous rappelle au {numeroClient} sous 2 h ouvrées. Pour une urgence, appelez directement.",
+    "erreurEnvoi": "L'envoi a échoué. Appelez-moi directement au {telephone}.",
+    "etapeLibelle": "Étape"
+  },
+  "barreMobile": {
+    "appeler": "Appeler",
+    "devis": "Devis gratuit"
+  },
+  "assurance": {
+    "type": "Assurance décennale",
+    "assureur": "Mutuelle des Artisans du Midi",
+    "police": "DEC-2024-005588",
+    "couverture": "France métropolitaine"
+  },
+  "pied": {
+    "titreMentions": "Mentions légales",
+    "libelleRaisonSociale": "Raison sociale",
+    "libelleSiret": "SIRET",
+    "libelleTva": "TVA intracom.",
+    "libelleApe": "Code APE",
+    "libelleAssurance": "Assurance décennale",
+    "libelleAdresse": "Adresse",
+    "libelleHoraires": "Horaires",
+    "libelleContact": "Contact",
+    "copyright": "© {annee} {nom}. Tous droits réservés.",
+    "mentionDemo": "Site de démonstration réalisé par",
+    "agence": "MJAGENCY",
+    "agenceUrl": "https://mjagency.eu",
+    "agenceLibelleUrl": "mjagency.eu",
+    "libelleEmail": "E-mail",
+    "libellePolice": "n°"
+  },
+  "demo": {
+    "afficherSelecteur": true,
+    "libelle": "Démo — voir ce site pour un autre métier :",
+    "presets": [
+      {
+        "id": "electricien",
+        "label": "Électricien"
+      },
+      {
+        "id": "plombier",
+        "label": "Plombier"
+      },
+      {
+        "id": "peintre",
+        "label": "Peintre"
+      },
+      {
+        "id": "paysagiste",
+        "label": "Paysagiste"
+      }
+    ]
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "_lisezmoi": "Fichier UNIQUE de personnalisation. Les jetons {nom}, {metier}, {metierMin}, {ville}, {telephone}, {delai}, {annees}, {chantiers} sont remplacés automatiquement partout.",
+  "entreprise": {
+    "nom": "Vernet Élec",
+    "initiales": "VE",
+    "metier": "Électricien",
+    "metierMin": "électricien",
+    "schemaType": "Electrician",
+    "slogan": "Le courant passe. Le chantier reste propre.",
+    "gerant": "Julien Vernet",
+    "formeJuridique": "EI",
+    "adresse": "12 quai de Bosc",
+    "codePostal": "34200",
+    "ville": "Sète",
+    "region": "Occitanie",
+    "departement": "Hérault (34)",
+    "pays": "FR",
+    "latitude": 43.4028,
+    "longitude": 3.6967,
+    "telephone": "+33467000000",
+    "telephoneAffiche": "04 67 00 00 00",
+    "email": "contact@vernet-elec.fr",
+    "anneeCreation": 2009,
+    "siret": "123 456 789 00012",
+    "tva": "FR 12 123456789",
+    "codeApe": "4321A — Travaux d'installation électrique",
+    "prix": "€€"
+  },
+  "theme": {
+    "graphite": "#18191B",
+    "graphite2": "#232427",
+    "papier": "#F1EEE7",
+    "papier2": "#E4E0D6",
+    "accent": "#F6C400",
+    "surAccent": "#18191B"
+  },
+  "seo": {
+    "titre": "{metier} à {ville} — {nom} | Dépannage 24 h, devis gratuit",
+    "description": "{nom}, {metierMin} à {ville} et autour du bassin de Thau (Frontignan, Balaruc, Mèze, Marseillan). Dépannage sous 24 h, mise aux normes, rénovation. Devis gratuit au {telephone}.",
+    "url": "https://vernet-elec.vercel.app",
+    "image": "/photos/og.jpg",
+    "langue": "fr",
+    "locale": "fr_FR"
+  },
+  "preuves": {
+    "noteGoogle": 4.9,
+    "nombreAvis": 127,
+    "lienAvisGoogle": "https://www.google.com/maps",
+    "chantiers": 1240,
+    "delai": "24 h",
+    "delaiCourt": "< 24 h",
+    "garantie": "Garantie pièces & main-d'œuvre 2 ans"
+  },
+  "horaires": [
+    {
+      "jours": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "libelle": "Lun – Ven",
+      "ouverture": "07:30",
+      "fermeture": "19:00"
+    },
+    {
+      "jours": [
+        "Saturday"
+      ],
+      "libelle": "Samedi",
+      "ouverture": "08:00",
+      "fermeture": "12:00"
+    }
+  ],
+  "horairesUrgence": "Urgences 7 j / 7",
+  "hero": {
+    "modele3d": "ampoule",
+    "poster": "/photos/hero-ampoule.webp",
+    "refPlan": "PLAN N° VE-01",
+    "echelle": "ÉCH. 1:1",
+    "indice": "IND. C",
+    "cote": "Intervention sous {delai}",
+    "titreMetier": "{metier} à {ville}",
+    "accroche": "Dépannage, mise aux normes, rénovation. Un seul interlocuteur, du devis au certificat Consuel.",
+    "ctaAppeler": "Appeler",
+    "ctaDevis": "Devis gratuit, sans engagement",
+    "indicationScroll": "Faites défiler",
+    "etatEclate": "Vue éclatée",
+    "etatAssemble": "Vue assemblée",
+    "annotations": {
+      "globe": "Globe verre Ø 60",
+      "filament": "Filament LED 2700 K",
+      "support": "Tige support",
+      "culot": "Culot E27 laiton",
+      "isolant": "Bague isolante",
+      "plot": "Plot de contact 230 V"
+    },
+    "statNote": "note Google",
+    "statAvis": "{nombreAvis} avis",
+    "statChantiers": "chantiers",
+    "statDelai": "intervention"
+  },
+  "bandeau": [
+    "Devis gratuit, sans engagement",
+    "Intervention sous {delai}",
+    "Assurance décennale",
+    "Artisan local — {ville}",
+    "Certificat Consuel fourni"
+  ],
+  "navigation": {
+    "services": "Services",
+    "realisations": "Réalisations",
+    "zone": "Zone",
+    "avis": "Avis",
+    "devis": "Devis",
+    "libelle": "Sections du site"
+  },
+  "services": {
+    "numero": "01",
+    "titre": "Ce que je fais",
+    "sousTitre": "Nomenclature des interventions. Touchez une ligne pour le détail.",
+    "feuille": "FEUILLE 1/5",
+    "colonnePrix": "Tarif indicatif",
+    "colonneDelai": "Délai",
+    "libelleInclus": "Compris",
+    "ctaService": "Devis pour ce service",
+    "liste": [
+      {
+        "id": "depannage",
+        "titre": "Dépannage électrique",
+        "resume": "Panne, disjoncteur qui saute, odeur de brûlé.",
+        "detail": "Recherche de panne méthodique au multimètre et au mégohmmètre. Je répare sur place dans 9 cas sur 10 : je pars avec un fourgon équipé.",
+        "inclus": [
+          "Diagnostic complet",
+          "Remise en service sécurisée",
+          "Rapport photo par SMS"
+        ],
+        "prix": "dès 69 €",
+        "delai": "< 24 h"
+      },
+      {
+        "id": "normes",
+        "titre": "Mise aux normes NF C 15-100",
+        "resume": "Vente, location, assurance : installation conforme.",
+        "detail": "Mise à la terre, différentiels 30 mA, liaisons équipotentielles, salle de bain. Je fournis l'attestation Consuel.",
+        "inclus": [
+          "Diagnostic avant travaux",
+          "Attestation Consuel",
+          "Schéma unifilaire"
+        ],
+        "prix": "sur devis",
+        "delai": "2 à 5 j"
+      },
+      {
+        "id": "tableau",
+        "titre": "Remplacement de tableau",
+        "resume": "Fusibles porcelaine → tableau modulaire repéré.",
+        "detail": "Dépose de l'ancien tableau, pose d'un tableau 2 ou 3 rangées, peignes, parafoudre, repérage imprimé de chaque circuit.",
+        "inclus": [
+          "Tableau pré-câblé",
+          "Étiquetage des circuits",
+          "Coupure < 1 journée"
+        ],
+        "prix": "dès 890 €",
+        "delai": "1 j"
+      },
+      {
+        "id": "renovation",
+        "titre": "Rénovation complète",
+        "resume": "Appartement ou maison, du plan au dernier spot.",
+        "detail": "Plan d'implantation validé avec vous, saignées propres, rebouchage, protection des sols. Chantier aspiré chaque soir.",
+        "inclus": [
+          "Plan d'implantation",
+          "Protection & nettoyage",
+          "Consuel"
+        ],
+        "prix": "sur devis",
+        "delai": "selon surface"
+      },
+      {
+        "id": "eclairage",
+        "titre": "Éclairage LED intérieur & extérieur",
+        "resume": "Spots, rubans, variateurs, éclairage de jardin.",
+        "detail": "Étude d'éclairage pièce par pièce, températures de couleur adaptées, spots encastrés basse consommation, détecteurs extérieurs.",
+        "inclus": [
+          "Étude lumière",
+          "Matériel garanti 5 ans",
+          "Réglage des scénarios"
+        ],
+        "prix": "dès 45 € / point",
+        "delai": "1 à 2 j"
+      },
+      {
+        "id": "irve",
+        "titre": "Borne de recharge véhicule",
+        "resume": "Wallbox 7 kW, installateur qualifié IRVE.",
+        "detail": "Étude de puissance, ligne dédiée, protection adaptée, mise en service et aide au dossier de prime ADVENIR.",
+        "inclus": [
+          "Étude de puissance",
+          "Mise en service",
+          "Dossier de prime"
+        ],
+        "prix": "dès 1 190 €",
+        "delai": "1 j"
+      },
+      {
+        "id": "domotique",
+        "titre": "Domotique & volets roulants",
+        "resume": "Volets, chauffage, éclairage pilotés depuis le téléphone.",
+        "detail": "Motorisation de volets, thermostats connectés, interrupteurs sans fil. Matériel standard, sans abonnement.",
+        "inclus": [
+          "Paramétrage",
+          "Formation 30 min",
+          "Sans abonnement"
+        ],
+        "prix": "sur devis",
+        "delai": "1 à 3 j"
+      }
+    ]
+  },
+  "realisations": {
+    "numero": "02",
+    "titre": "Avant / après",
+    "sousTitre": "Glissez le curseur. Photos prises sur chantier, sans retouche.",
+    "feuille": "FEUILLE 2/5",
+    "libelleAvant": "Avant",
+    "libelleApres": "Après",
+    "libelleGlisser": "Glisser",
+    "libelleLieu": "Lieu",
+    "libelleDuree": "Durée",
+    "libelleType": "Travaux",
+    "liste": [
+      {
+        "ref": "R-01",
+        "titre": "Tableau à fusibles de 1974 remplacé",
+        "lieu": "Sète — Quartier Haut",
+        "duree": "1 jour",
+        "type": "Remplacement de tableau",
+        "avant": {
+          "src": "/photos/elec-tableau-avant.webp",
+          "alt": "Ancien tableau électrique à fusibles porcelaine avec fils entremêlés, avant travaux à Sète",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/elec-tableau-apres.webp",
+          "alt": "Tableau électrique modulaire neuf avec disjoncteurs repérés, après travaux à Sète",
+          "unsplash": ""
+        }
+      },
+      {
+        "ref": "R-02",
+        "titre": "Goulottes supprimées, prises encastrées",
+        "lieu": "Frontignan — centre",
+        "duree": "2 jours",
+        "type": "Rénovation séjour",
+        "avant": {
+          "src": "/photos/elec-prises-avant.webp",
+          "alt": "Mur de séjour avec goulottes apparentes et multiprises, avant rénovation électrique à Frontignan",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/elec-prises-apres.webp",
+          "alt": "Mur de séjour rénové avec prises encastrées et câblage invisible, après travaux à Frontignan",
+          "unsplash": ""
+        }
+      },
+      {
+        "ref": "R-03",
+        "titre": "Cuisine passée en éclairage LED",
+        "lieu": "Balaruc-les-Bains",
+        "duree": "1 jour",
+        "type": "Éclairage",
+        "avant": {
+          "src": "/photos/elec-eclairage-avant.webp",
+          "alt": "Cuisine sombre éclairée par une seule ampoule nue au plafond, avant travaux à Balaruc-les-Bains",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/elec-eclairage-apres.webp",
+          "alt": "Cuisine éclairée par des spots LED encastrés et un ruban sous les meubles, après travaux à Balaruc-les-Bains",
+          "unsplash": ""
+        }
+      }
+    ]
+  },
+  "zone": {
+    "numero": "03",
+    "titre": "Zone d'intervention",
+    "sousTitre": "Basé à {ville}, j'interviens tout autour du bassin de Thau.",
+    "feuille": "FEUILLE 3/5",
+    "fondDeCarte": "thau",
+    "libelleBase": "Atelier",
+    "libelleMer": "Mer Méditerranée",
+    "libelleEtang": "Étang de Thau",
+    "libelleDistance": "km",
+    "libelleTrajet": "min",
+    "vitesseMoyenneKmh": 38,
+    "_etiquette": "Position du nom de ville sur la carte : droite | gauche | haut | bas",
+    "noteHorsZone": "Hors zone ? Appelez quand même, je vous oriente vers un confrère de confiance.",
+    "villes": [
+      {
+        "nom": "Sète",
+        "latitude": 43.4028,
+        "longitude": 3.6967,
+        "base": true,
+        "etiquette": "bas"
+      },
+      {
+        "nom": "Frontignan",
+        "latitude": 43.4483,
+        "longitude": 3.7553,
+        "etiquette": "droite"
+      },
+      {
+        "nom": "Balaruc-les-Bains",
+        "latitude": 43.4414,
+        "longitude": 3.6778,
+        "etiquette": "haut"
+      },
+      {
+        "nom": "Mèze",
+        "latitude": 43.4253,
+        "longitude": 3.6053,
+        "etiquette": "gauche"
+      },
+      {
+        "nom": "Marseillan",
+        "latitude": 43.3564,
+        "longitude": 3.5319,
+        "etiquette": "bas"
+      }
+    ]
+  },
+  "avis": {
+    "numero": "04",
+    "titre": "Ils m'ont appelé",
+    "sousTitre": "Avis publiés sur Google, non filtrés.",
+    "feuille": "FEUILLE 4/5",
+    "libelleNote": "Note moyenne Google",
+    "libelleSur": "/ 5",
+    "libelleAvis": "avis vérifiés",
+    "lienGoogle": "Lire tous les avis sur Google",
+    "compteurs": [
+      {
+        "valeur": "{chantiers}",
+        "suffixe": "",
+        "libelle": "chantiers réalisés"
+      },
+      {
+        "valeur": "{annees}",
+        "suffixe": "ans",
+        "libelle": "d'expérience à {ville}"
+      },
+      {
+        "valeur": "24",
+        "suffixe": "h",
+        "libelle": "délai d'intervention max."
+      }
+    ],
+    "tampons": [
+      {
+        "titre": "Assurance décennale",
+        "detail": "Police n° {police}"
+      },
+      {
+        "titre": "Artisan local",
+        "detail": "Atelier à {ville} depuis {anneeCreation}"
+      },
+      {
+        "titre": "Devis gratuit",
+        "detail": "Sans engagement, sous 48 h"
+      }
+    ],
+    "liste": [
+      {
+        "auteur": "Sandrine M.",
+        "ville": "Sète",
+        "date": "2026-09",
+        "note": 5,
+        "texte": "Disjoncteur qui sautait tous les soirs. Julien est venu le lendemain matin, a trouvé le problème en 20 minutes (un domino grillé dans la salle de bain) et m'a tout expliqué. Prix annoncé = prix payé."
+      },
+      {
+        "auteur": "Patrick L.",
+        "ville": "Frontignan",
+        "date": "2026-07",
+        "note": 5,
+        "texte": "Rénovation complète de notre séjour. Saignées propres, rebouchage nickel, aspirateur passé chaque soir. On ne voit plus un seul fil."
+      },
+      {
+        "auteur": "Karima B.",
+        "ville": "Mèze",
+        "date": "2026-05",
+        "note": 5,
+        "texte": "Mise aux normes avant la vente de la maison de mes parents. Consuel obtenu du premier coup, dossier complet remis au notaire."
+      },
+      {
+        "auteur": "Thomas R.",
+        "ville": "Balaruc-les-Bains",
+        "date": "2026-03",
+        "note": 4,
+        "texte": "Très bon travail sur l'éclairage de la cuisine, conseils pertinents sur les températures de couleur. Petit décalage d'une journée sur le planning, prévenu à l'avance."
+      },
+      {
+        "auteur": "Hélène D.",
+        "ville": "Marseillan",
+        "date": "2026-01",
+        "note": 5,
+        "texte": "Installation d'une borne de recharge. Il s'est occupé du dossier de prime, je n'ai rien eu à faire. Je recommande sans hésiter."
+      }
+    ]
+  },
+  "devis": {
+    "numero": "05",
+    "titre": "Demande de devis",
+    "sousTitre": "3 questions, 40 secondes. Rappel sous 2 h ouvrées.",
+    "feuille": "FEUILLE 5/5",
+    "envoi": "mailto",
+    "formspreeId": "",
+    "emailDestination": "contact@vernet-elec.fr",
+    "objetEmail": "Demande de devis — {travaux} — {commune}",
+    "etapes": [
+      "Travaux",
+      "Urgence",
+      "Coordonnées"
+    ],
+    "questionTravaux": "Quel type de travaux ?",
+    "autreTravaux": "Autre / je ne sais pas",
+    "questionUrgence": "C'est pour quand ?",
+    "urgences": [
+      {
+        "id": "urgent",
+        "label": "Urgent",
+        "detail": "Panne en cours, aujourd'hui si possible"
+      },
+      {
+        "id": "semaine",
+        "label": "Cette semaine",
+        "detail": "Dans les 7 jours"
+      },
+      {
+        "id": "mois",
+        "label": "Ce mois-ci",
+        "detail": "Projet à planifier"
+      },
+      {
+        "id": "projet",
+        "label": "Je me renseigne",
+        "detail": "Pas de date pour l'instant"
+      }
+    ],
+    "questionCoordonnees": "Où vous rappeler ?",
+    "champNom": "Nom",
+    "champTelephone": "Téléphone",
+    "champCommune": "Commune",
+    "champMessage": "Précisions (facultatif)",
+    "placeholderMessage": "Ex. : tableau de 1980, 3 pièces, disjoncteur qui saute…",
+    "consentement": "J'accepte d'être recontacté au sujet de ma demande. Aucune revente de données.",
+    "erreurNom": "Indiquez votre nom",
+    "erreurTelephone": "Numéro à 10 chiffres",
+    "erreurConsentement": "Cochez la case pour continuer",
+    "boutonSuivant": "Suivant",
+    "boutonRetour": "Retour",
+    "boutonEnvoyer": "Envoyer ma demande",
+    "envoiEnCours": "Envoi…",
+    "reassurance": "Devis gratuit, sans engagement · Rappel sous 2 h ouvrées",
+    "succesTitre": "Demande transmise.",
+    "succesTexte": "Je vous rappelle au {numeroClient} sous 2 h ouvrées. Pour une urgence, appelez directement.",
+    "erreurEnvoi": "L'envoi a échoué. Appelez-moi directement au {telephone}.",
+    "etapeLibelle": "Étape"
+  },
+  "barreMobile": {
+    "appeler": "Appeler",
+    "devis": "Devis gratuit"
+  },
+  "assurance": {
+    "type": "Assurance décennale",
+    "assureur": "Mutuelle des Artisans du Midi",
+    "police": "DEC-2024-004512",
+    "couverture": "France métropolitaine"
+  },
+  "pied": {
+    "titreMentions": "Mentions légales",
+    "libelleRaisonSociale": "Raison sociale",
+    "libelleSiret": "SIRET",
+    "libelleTva": "TVA intracom.",
+    "libelleApe": "Code APE",
+    "libelleAssurance": "Assurance décennale",
+    "libelleAdresse": "Adresse",
+    "libelleHoraires": "Horaires",
+    "libelleContact": "Contact",
+    "copyright": "© {annee} {nom}. Tous droits réservés.",
+    "mentionDemo": "Site de démonstration réalisé par",
+    "agence": "MJAGENCY",
+    "agenceUrl": "https://mjagency.eu",
+    "agenceLibelleUrl": "mjagency.eu",
+    "libelleEmail": "E-mail",
+    "libellePolice": "n°"
+  },
+  "demo": {
+    "afficherSelecteur": true,
+    "libelle": "Démo — voir ce site pour un autre métier :",
+    "presets": [
+      {
+        "id": "electricien",
+        "label": "Électricien"
+      },
+      {
+        "id": "plombier",
+        "label": "Plombier"
+      },
+      {
+        "id": "peintre",
+        "label": "Peintre"
+      },
+      {
+        "id": "paysagiste",
+        "label": "Paysagiste"
+      }
+    ]
+  }
+}

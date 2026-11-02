@@ -1,0 +1,486 @@
+{
+  "_lisezmoi": "Fichier UNIQUE de personnalisation. Les jetons {nom}, {metier}, {metierMin}, {ville}, {telephone}, {delai}, {annees}, {chantiers} sont remplacés automatiquement partout.",
+  "entreprise": {
+    "nom": "Roux Plomberie",
+    "initiales": "RP",
+    "metier": "Plombier",
+    "metierMin": "plombier",
+    "schemaType": "Plumber",
+    "slogan": "Pas une goutte de trop.",
+    "gerant": "Mathieu Roux",
+    "formeJuridique": "EI",
+    "adresse": "12 quai de Bosc",
+    "codePostal": "34200",
+    "ville": "Sète",
+    "region": "Occitanie",
+    "departement": "Hérault (34)",
+    "pays": "FR",
+    "latitude": 43.4028,
+    "longitude": 3.6967,
+    "telephone": "+33467000001",
+    "telephoneAffiche": "04 67 00 00 01",
+    "email": "contact@roux-plomberie.fr",
+    "anneeCreation": 2011,
+    "siret": "234 567 891 00018",
+    "tva": "FR 34 234567891",
+    "codeApe": "4322A — Travaux d'installation d'eau et de gaz",
+    "prix": "€€"
+  },
+  "theme": {
+    "graphite": "#18191B",
+    "graphite2": "#232427",
+    "papier": "#F1EEE7",
+    "papier2": "#E4E0D6",
+    "accent": "#3FA7D6",
+    "surAccent": "#18191B"
+  },
+  "seo": {
+    "titre": "{metier} à {ville} — {nom} | Devis gratuit",
+    "description": "{nom}, {metierMin} à {ville} et autour du bassin de Thau (Frontignan, Balaruc, Mèze, Marseillan). Fuite, débouchage, chauffe-eau, salle de bain. Intervention sous 24 h, devis gratuit au {telephone}.",
+    "url": "https://plombier-demo.vercel.app",
+    "image": "/photos/og.jpg",
+    "langue": "fr",
+    "locale": "fr_FR"
+  },
+  "preuves": {
+    "noteGoogle": 4.8,
+    "nombreAvis": 211,
+    "lienAvisGoogle": "https://www.google.com/maps",
+    "chantiers": 2380,
+    "delai": "24 h",
+    "delaiCourt": "< 24 h",
+    "garantie": "Garantie pièces & main-d'œuvre 2 ans"
+  },
+  "horaires": [
+    {
+      "jours": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "libelle": "Lun – Ven",
+      "ouverture": "07:30",
+      "fermeture": "19:00"
+    },
+    {
+      "jours": [
+        "Saturday"
+      ],
+      "libelle": "Samedi",
+      "ouverture": "08:00",
+      "fermeture": "12:00"
+    }
+  ],
+  "horairesUrgence": "Urgences 7 j / 7",
+  "hero": {
+    "modele3d": "robinet",
+    "poster": "/photos/hero-robinet.webp",
+    "refPlan": "PLAN N° RP-01",
+    "echelle": "ÉCH. 1:1",
+    "indice": "IND. C",
+    "cote": "Intervention sous {delai}",
+    "titreMetier": "{metier} à {ville}",
+    "accroche": "Fuite, débouchage, chauffe-eau, salle de bain. Un seul interlocuteur, du diagnostic à la mise en eau.",
+    "ctaAppeler": "Appeler",
+    "ctaDevis": "Devis gratuit, sans engagement",
+    "indicationScroll": "Faites défiler",
+    "etatEclate": "Vue éclatée",
+    "etatAssemble": "Vue assemblée",
+    "annotations": {
+      "levier": "Levier inox",
+      "capot": "Capot chromé",
+      "cartouche": "Cartouche céramique Ø 35",
+      "corps": "Corps laiton",
+      "joint": "Joint torique EPDM",
+      "ecrou": "Écrou de fixation",
+      "flexibles": "Flexibles 3/8\""
+    },
+    "statNote": "note Google",
+    "statAvis": "{nombreAvis} avis",
+    "statChantiers": "chantiers",
+    "statDelai": "intervention"
+  },
+  "bandeau": [
+    "Devis gratuit, sans engagement",
+    "Intervention sous {delai}",
+    "Assurance décennale",
+    "Artisan local — {ville}",
+    "Pas de déplacement facturé si devis signé"
+  ],
+  "navigation": {
+    "services": "Services",
+    "realisations": "Réalisations",
+    "zone": "Zone",
+    "avis": "Avis",
+    "devis": "Devis",
+    "libelle": "Sections du site"
+  },
+  "services": {
+    "numero": "01",
+    "titre": "Ce que je fais",
+    "sousTitre": "Nomenclature des interventions. Touchez une ligne pour le détail.",
+    "feuille": "FEUILLE 1/5",
+    "colonnePrix": "Tarif indicatif",
+    "colonneDelai": "Délai",
+    "libelleInclus": "Compris",
+    "ctaService": "Devis pour ce service",
+    "liste": [
+      {
+        "id": "fuite",
+        "titre": "Recherche & réparation de fuite",
+        "resume": "Tache au plafond, compteur qui tourne, robinet qui goutte.",
+        "detail": "Recherche non destructive (caméra thermique, gaz traceur). Je répare sur place et vous remets un rapport pour l'assurance.",
+        "inclus": [
+          "Recherche non destructive",
+          "Rapport pour l'assurance",
+          "Réparation immédiate"
+        ],
+        "prix": "dès 89 €",
+        "delai": "< 24 h"
+      },
+      {
+        "id": "debouchage",
+        "titre": "Débouchage canalisations",
+        "resume": "Évier, WC, douche, colonne d'immeuble.",
+        "detail": "Furet électrique, hydrocurage haute pression, inspection caméra pour trouver la cause et éviter la récidive.",
+        "inclus": [
+          "Inspection caméra",
+          "Hydrocurage",
+          "Conseils d'entretien"
+        ],
+        "prix": "dès 99 €",
+        "delai": "< 24 h"
+      },
+      {
+        "id": "chauffe-eau",
+        "titre": "Chauffe-eau & ballon thermodynamique",
+        "resume": "Remplacement, détartrage, panne d'eau chaude.",
+        "detail": "Dépose et évacuation de l'ancien ballon, pose d'un chauffe-eau dimensionné à votre foyer, groupe de sécurité neuf.",
+        "inclus": [
+          "Évacuation de l'ancien",
+          "Groupe de sécurité neuf",
+          "Mise en service"
+        ],
+        "prix": "dès 790 €",
+        "delai": "1 j"
+      },
+      {
+        "id": "sdb",
+        "titre": "Rénovation de salle de bain",
+        "resume": "Douche à l'italienne, PMR, meuble vasque.",
+        "detail": "Dépose, plomberie, étanchéité sous carrelage (SPEC), pose des équipements. Une seule équipe, un seul planning.",
+        "inclus": [
+          "Plan 3D",
+          "Étanchéité SPEC",
+          "Nettoyage de fin de chantier"
+        ],
+        "prix": "sur devis",
+        "delai": "5 à 10 j"
+      },
+      {
+        "id": "sanitaires",
+        "titre": "Pose de sanitaires",
+        "resume": "WC suspendu, lavabo, robinetterie, mitigeur.",
+        "detail": "Remplacement à l'identique ou modernisation : WC suspendu avec bâti-support, mitigeurs thermostatiques.",
+        "inclus": [
+          "Fourniture possible",
+          "Évacuation des anciens",
+          "Garantie 2 ans"
+        ],
+        "prix": "dès 180 €",
+        "delai": "1/2 j"
+      },
+      {
+        "id": "tuyauterie",
+        "titre": "Remplacement de tuyauterie",
+        "resume": "Plomb, acier rouillé → cuivre ou PER.",
+        "detail": "Remplacement des canalisations vétustes, réducteur de pression, vannes d'arrêt par pièce.",
+        "inclus": [
+          "Diagnostic réseau",
+          "Vannes par pièce",
+          "Essai en pression"
+        ],
+        "prix": "sur devis",
+        "delai": "1 à 3 j"
+      }
+    ]
+  },
+  "realisations": {
+    "numero": "02",
+    "titre": "Avant / après",
+    "sousTitre": "Glissez le curseur. Photos prises sur chantier, sans retouche.",
+    "feuille": "FEUILLE 2/5",
+    "libelleAvant": "Avant",
+    "libelleApres": "Après",
+    "libelleGlisser": "Glisser",
+    "libelleLieu": "Lieu",
+    "libelleDuree": "Durée",
+    "libelleType": "Travaux",
+    "liste": [
+      {
+        "ref": "R-01",
+        "titre": "Baignoire remplacée par une douche à l'italienne",
+        "lieu": "Sète — La Corniche",
+        "duree": "6 jours",
+        "type": "Salle de bain",
+        "avant": {
+          "src": "/photos/plomb-sdb-avant.webp",
+          "alt": "Salle de bain ancienne avec baignoire et carrelage daté, avant travaux à Sète",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/plomb-sdb-apres.webp",
+          "alt": "Douche à l'italienne avec paroi vitrée et grands carreaux, après travaux à Sète",
+          "unsplash": ""
+        }
+      },
+      {
+        "ref": "R-02",
+        "titre": "Chauffe-eau rouillé remplacé, réseau refait",
+        "lieu": "Frontignan",
+        "duree": "1 jour",
+        "type": "Chauffe-eau",
+        "avant": {
+          "src": "/photos/plomb-chauffe-eau-avant.webp",
+          "alt": "Ancien chauffe-eau rouillé et tuyaux corrodés, avant intervention à Frontignan",
+          "unsplash": ""
+        },
+        "apres": {
+          "src": "/photos/plomb-chauffe-eau-apres.webp",
+          "alt": "Chauffe-eau neuf avec tuyauterie cuivre isolée, après intervention à Frontignan",
+          "unsplash": ""
+        }
+      }
+    ]
+  },
+  "zone": {
+    "numero": "03",
+    "titre": "Zone d'intervention",
+    "sousTitre": "Basé à {ville}, j'interviens tout autour du bassin de Thau.",
+    "feuille": "FEUILLE 3/5",
+    "fondDeCarte": "thau",
+    "libelleBase": "Atelier",
+    "libelleMer": "Mer Méditerranée",
+    "libelleEtang": "Étang de Thau",
+    "libelleDistance": "km",
+    "libelleTrajet": "min",
+    "vitesseMoyenneKmh": 38,
+    "_etiquette": "Position du nom de ville sur la carte : droite | gauche | haut | bas",
+    "noteHorsZone": "Hors zone ? Appelez quand même, je vous oriente vers un confrère de confiance.",
+    "villes": [
+      {
+        "nom": "Sète",
+        "latitude": 43.4028,
+        "longitude": 3.6967,
+        "base": true,
+        "etiquette": "bas"
+      },
+      {
+        "nom": "Frontignan",
+        "latitude": 43.4483,
+        "longitude": 3.7553,
+        "etiquette": "droite"
+      },
+      {
+        "nom": "Balaruc-les-Bains",
+        "latitude": 43.4414,
+        "longitude": 3.6778,
+        "etiquette": "haut"
+      },
+      {
+        "nom": "Mèze",
+        "latitude": 43.4253,
+        "longitude": 3.6053,
+        "etiquette": "gauche"
+      },
+      {
+        "nom": "Marseillan",
+        "latitude": 43.3564,
+        "longitude": 3.5319,
+        "etiquette": "bas"
+      }
+    ]
+  },
+  "avis": {
+    "numero": "04",
+    "titre": "Ils m'ont appelé",
+    "sousTitre": "Avis publiés sur Google, non filtrés.",
+    "feuille": "FEUILLE 4/5",
+    "libelleNote": "Note moyenne Google",
+    "libelleSur": "/ 5",
+    "libelleAvis": "avis vérifiés",
+    "lienGoogle": "Lire tous les avis sur Google",
+    "compteurs": [
+      {
+        "valeur": "{chantiers}",
+        "suffixe": "",
+        "libelle": "chantiers réalisés"
+      },
+      {
+        "valeur": "{annees}",
+        "suffixe": "ans",
+        "libelle": "d'expérience à {ville}"
+      },
+      {
+        "valeur": "24",
+        "suffixe": "h",
+        "libelle": "délai d'intervention max."
+      }
+    ],
+    "tampons": [
+      {
+        "titre": "Assurance décennale",
+        "detail": "Police n° {police}"
+      },
+      {
+        "titre": "Artisan local",
+        "detail": "Atelier à {ville} depuis {anneeCreation}"
+      },
+      {
+        "titre": "Devis gratuit",
+        "detail": "Sans engagement, sous 48 h"
+      }
+    ],
+    "liste": [
+      {
+        "auteur": "Nadia K.",
+        "ville": "Sète",
+        "date": "2026-09",
+        "note": 5,
+        "texte": "Fuite sous l'évier un dimanche soir. Mathieu est passé lundi 8 h, réparé en 30 minutes, prix annoncé au téléphone respecté."
+      },
+      {
+        "auteur": "Bernard P.",
+        "ville": "Mèze",
+        "date": "2026-06",
+        "note": 5,
+        "texte": "Salle de bain refaite en 6 jours comme prévu. Douche à l'italienne superbe, aucune trace de poussière dans le reste de la maison."
+      },
+      {
+        "auteur": "Claire V.",
+        "ville": "Frontignan",
+        "date": "2026-04",
+        "note": 5,
+        "texte": "Chauffe-eau changé dans la journée, l'ancien emporté. Très pro et de bon conseil sur la capacité à choisir."
+      },
+      {
+        "auteur": "Yann G.",
+        "ville": "Marseillan",
+        "date": "2026-02",
+        "note": 4,
+        "texte": "Débouchage efficace avec inspection caméra, il a trouvé une racine dans la canalisation. Un peu d'attente pour le RDV."
+      }
+    ]
+  },
+  "devis": {
+    "numero": "05",
+    "titre": "Demande de devis",
+    "sousTitre": "3 questions, 40 secondes. Rappel sous 2 h ouvrées.",
+    "feuille": "FEUILLE 5/5",
+    "envoi": "mailto",
+    "formspreeId": "",
+    "emailDestination": "contact@roux-plomberie.fr",
+    "objetEmail": "Demande de devis — {travaux} — {commune}",
+    "etapes": [
+      "Travaux",
+      "Urgence",
+      "Coordonnées"
+    ],
+    "questionTravaux": "Quel type de travaux ?",
+    "autreTravaux": "Autre / je ne sais pas",
+    "questionUrgence": "C'est pour quand ?",
+    "urgences": [
+      {
+        "id": "urgent",
+        "label": "Urgent",
+        "detail": "Fuite ou dégât des eaux en cours"
+      },
+      {
+        "id": "semaine",
+        "label": "Cette semaine",
+        "detail": "Dans les 7 jours"
+      },
+      {
+        "id": "mois",
+        "label": "Ce mois-ci",
+        "detail": "Projet à planifier"
+      },
+      {
+        "id": "projet",
+        "label": "Je me renseigne",
+        "detail": "Pas de date pour l'instant"
+      }
+    ],
+    "questionCoordonnees": "Où vous rappeler ?",
+    "champNom": "Nom",
+    "champTelephone": "Téléphone",
+    "champCommune": "Commune",
+    "champMessage": "Précisions (facultatif)",
+    "placeholderMessage": "Ex. : fuite sous l'évier, chauffe-eau 200 L de 2008…",
+    "consentement": "J'accepte d'être recontacté au sujet de ma demande. Aucune revente de données.",
+    "erreurNom": "Indiquez votre nom",
+    "erreurTelephone": "Numéro à 10 chiffres",
+    "erreurConsentement": "Cochez la case pour continuer",
+    "boutonSuivant": "Suivant",
+    "boutonRetour": "Retour",
+    "boutonEnvoyer": "Envoyer ma demande",
+    "envoiEnCours": "Envoi…",
+    "reassurance": "Devis gratuit, sans engagement · Rappel sous 2 h ouvrées",
+    "succesTitre": "Demande transmise.",
+    "succesTexte": "Je vous rappelle au {numeroClient} sous 2 h ouvrées. Pour une urgence, appelez directement.",
+    "erreurEnvoi": "L'envoi a échoué. Appelez-moi directement au {telephone}.",
+    "etapeLibelle": "Étape"
+  },
+  "barreMobile": {
+    "appeler": "Appeler",
+    "devis": "Devis gratuit"
+  },
+  "assurance": {
+    "type": "Assurance décennale",
+    "assureur": "Mutuelle des Artisans du Midi",
+    "police": "DEC-2024-007731",
+    "couverture": "France métropolitaine"
+  },
+  "pied": {
+    "titreMentions": "Mentions légales",
+    "libelleRaisonSociale": "Raison sociale",
+    "libelleSiret": "SIRET",
+    "libelleTva": "TVA intracom.",
+    "libelleApe": "Code APE",
+    "libelleAssurance": "Assurance décennale",
+    "libelleAdresse": "Adresse",
+    "libelleHoraires": "Horaires",
+    "libelleContact": "Contact",
+    "copyright": "© {annee} {nom}. Tous droits réservés.",
+    "mentionDemo": "Site de démonstration réalisé par",
+    "agence": "MJAGENCY",
+    "agenceUrl": "https://mjagency.eu",
+    "agenceLibelleUrl": "mjagency.eu",
+    "libelleEmail": "E-mail",
+    "libellePolice": "n°"
+  },
+  "demo": {
+    "afficherSelecteur": true,
+    "libelle": "Démo — voir ce site pour un autre métier :",
+    "presets": [
+      {
+        "id": "electricien",
+        "label": "Électricien"
+      },
+      {
+        "id": "plombier",
+        "label": "Plombier"
+      },
+      {
+        "id": "peintre",
+        "label": "Peintre"
+      },
+      {
+        "id": "paysagiste",
+        "label": "Paysagiste"
+      }
+    ]
+  }
+}
